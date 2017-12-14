@@ -1,38 +1,21 @@
-
+/**
+ * Examen Refactorizacion
+ * modificado por ANDREA
+ */
 package factorial;
-
 
 public class Factorial {
 
-
+    /**
+     *
+     * @param args String
+     */
     public static void main(String[] args) {
 
+        Calculo cal = new Calculo();
 
-    int j;
-    int f;
-
-  
-   j = 8;    
-   
-
-    
-   int i;
-   if (j == 0)
-f = 1;
-   else
-   {
-f = 1;
-for (i = j; i >= 1; i--)
-{
-    f = f * i;
-}
-   }    
-  
- 
-
-System.out.println(f); 
-
+        System.out.println(cal.calFact());
 
     }
-    
+
 }
